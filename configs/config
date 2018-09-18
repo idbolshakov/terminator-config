@@ -1,0 +1,120 @@
+[global_config]
+  borderless = True
+  focus = system
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  suppress_multiple_term_dialog = True
+  title_transmit_bg_color = "#555753"
+  title_use_system_font = False
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1080
+      type = Window
+    [[[child1]]]
+      active_page = 0
+      labels = "#1", "#2", "#3"
+      order = 0
+      parent = child0
+      type = Notebook
+    [[[child11]]]
+      order = 1
+      parent = child7
+      position = 509
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 1174
+      ratio = 0.613695765813
+      type = HPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 511
+      ratio = 0.501964636542
+      type = VPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 957
+      ratio = 0.500261369577
+      type = HPaned
+    [[[child8]]]
+      order = 0
+      parent = child7
+      position = 511
+      ratio = 0.501964636542
+      type = VPaned
+    [[[terminal10]]]
+      order = 1
+      parent = child8
+      profile = default
+      title = "termnial #5"
+      type = Terminal
+      uuid = 0edf1624-c982-4d9b-ba30-86eab55ac62b
+    [[[terminal12]]]
+      order = 0
+      parent = child11
+      profile = default
+      title = "terminal #4"
+      type = Terminal
+      uuid = ad2175b7-4dc5-454c-b3c2-d0834a348b07
+    [[[terminal13]]]
+      order = 1
+      parent = child11
+      profile = default
+      title = "terminal #6"
+      type = Terminal
+      uuid = d710c067-06f0-4b03-b159-8a9fbdca9f47
+    [[[terminal14]]]
+      order = 2
+      parent = child1
+      profile = default
+      title = "terminal #7"
+      type = Terminal
+      uuid = 50f55373-1bfb-4339-8f87-4ede1dd3cfb4
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      title = vim
+      type = Terminal
+      uuid = ca960dc9-7ff0-4252-a9d2-59729a555843
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      title = "terminal #1"
+      type = Terminal
+      uuid = e735edcb-e572-42d3-b015-579a4d8d6d2f
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      title = "terminal #2"
+      type = Terminal
+      uuid = 8ecb6935-8bd7-4bb8-9abc-7f9ab0f15b02
+    [[[terminal9]]]
+      order = 0
+      parent = child8
+      profile = default
+      title = "terminal #3"
+      type = Terminal
+      uuid = 39dc577b-a90b-41f2-bac6-bdb5601ba2cf
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#161616"
+    cursor_color = "#25C3DC"
+    foreground_color = "#f2f2f2"
+    palette = "#2e3436:#c62828:#558b2e:#f9a825:#1565c1:#6a1e9a:#00838f:#ffffff:#969694:#f15250:#86bd47:#f8e63a:#77b2f6:#b963c8:#25c3dc:#ffffff"
+    scrollbar_position = hidden
